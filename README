@@ -1,8 +1,12 @@
 
 This is a fork of the excellent picocom (https://code.google.com/p/picocom/)
-with some minor changes - in particular removing potentially unsafe default
-options (the ability to run arbitrary commands via send/receive) and providing
-theh ability to disable escape handling system commands
+with some minor changes designed to allow it to be used safely as a captive
+terminal - in particular:
+
+- Removing default send/receive commands and sanitising input to prevent
+  shell injection
+- Providing an option to disable handling of escape character preventing
+  the terminal entering command mode
 
 --- Original README 
 
