@@ -1,3 +1,7 @@
+NOTE: The 2.0 version of picocom (https://github.com/npat-efault/picocom)
+      now includes similar functionality to this fork (and lots of other
+      stuff) so please use this.
+
 
 This is a fork of the excellent picocom (https://code.google.com/p/picocom/)
 with some minor changes designed to allow it to be used safely as a captive
